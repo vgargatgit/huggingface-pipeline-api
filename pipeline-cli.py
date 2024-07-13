@@ -24,6 +24,8 @@ def qa(question, context):
         context=context,
     ))
 
+
+
 @click.command()
 @click.option('--text', help='Text from which to extract name/entity')
 def ner(text):
